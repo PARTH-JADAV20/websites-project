@@ -12,6 +12,7 @@
     position: fixed;
     top: 0;
     transition: top 0.3s ease;
+    z-index: 100;
 }
 
 .hidden {
@@ -313,4 +314,368 @@
 
 .box2img >img:hover{
     transform: scale(1.1);
+}
+
+#navbar2{
+    background-color: rgb(33, 33, 33);
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 16% 8% 76%;
+    color: white;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    margin-top: 9px;
+}
+
+#navbar2main{
+    display: grid;
+    grid-template-columns: 9% 3% 11% 3% 11% 3% 13% 3% 9% 3% 12% 3% 15% 3% 15% 3% 10% 3% 10% 3% 10% 3%;
+    overflow-x: auto;
+    color: white;
+    align-items: center;
+    height: 60px;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+/* Chrome, Edge, and Safari */
+#navbar2main::-webkit-scrollbar {
+    height: 2px; /* Set the height of the horizontal scrollbar */
+}
+  
+#navbar2main::-webkit-scrollbar-thumb {
+    background-color: rgb(213, 213, 213); /* Color of the scrollbar thumb */
+}
+  
+#navbar2main::-webkit-scrollbar-track {
+    background-color: rgb(91, 91, 91);/* Background of the scrollbar track */
+}
+
+#logoo1{
+    height: 24px;
+    width: 175px;
+    margin-top: 5%;
+}
+
+#motorcycles{
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.image2{
+    width: 100%;
+}
+
+.box3img{
+    display: block;
+    width: 1361px;
+}
+
+#box3{
+    overflow: hidden;
+    width: 100%;
+    /* position: relative; */
+}
+
+#box3main{
+    display: flex;
+    /* transition: transform 0.5s ease; */
+}
+
+
+.buttonsforbox3{
+    cursor: pointer;
+}
+
+.active2{
+    color:rgb(191, 10, 0);
+}
+
+#imgtxt01{
+    position: absolute;
+    top: 191%;
+    right: 24%;
+    color: white;
+}
+
+#stayupdated01{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 62px;
+}
+
+#imgtxt02{
+    position: absolute;
+    top: 184%;
+    right: 22%;
+    color: white;
+}
+
+#bear02{
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 20%;
+}
+
+
+#stayupdated02{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 62px;
+}
+
+
+#imgtxt03{
+    position: absolute;
+    top: 184%;
+    right: 20%;
+    color: white;
+}
+
+
+#imgtxt04{
+    position: absolute;
+    top: 224%;
+    right: 21%;
+    color: white;
+}
+
+#imgtxt05{
+    position: absolute;
+    top: 184%;
+    left: 7%;
+    color: white;
+}
+
+#imgtxt06{
+    position: absolute;
+    top: 224%;
+    left: 46%;
+    color: white;
+}
+
+#imgtxt07{
+    position: absolute;
+    top: 192%;
+    left: 6%;
+    color: white;
+}
+
+#imgtxt08{
+    position: absolute;
+    top: 225%;
+    right: 18%;
+    color: white;
+}
+
+#imgtxt09{
+    position: absolute;
+    top: 215%;
+    left: 6%;
+    color: white;
+}
+
+
+
+#navbar3{
+    background-color: rgb(33, 33, 33);
+    display: grid;
+    grid-template-columns: 8% 92%;
+    color: white;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+
+#navbar3main{
+    display: grid;
+    grid-template-columns: 11% 2% 15% 2% 6% 2% 6% 2% 5% 2% 18% 2% 8% 2% 8% 2% 11%;
+    overflow-x: auto;
+    color: white;
+    align-items: center;
+    height: 60px;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+/* Chrome, Edge, and Safari */
+#navbar3main::-webkit-scrollbar {
+    height: 2px; /* Set the height of the horizontal scrollbar */
+}
+  
+#navbar3main::-webkit-scrollbar-thumb {
+    background-color: rgb(213, 213, 213); /* Color of the scrollbar thumb */
+}
+  
+#navbar3main::-webkit-scrollbar-track {
+    background-color: rgb(91, 91, 91);/* Background of the scrollbar track */
+}
+
+#box4{
+    overflow: hidden;
+    width: 100%;
+}
+
+#box4main{
+    display: flex;
+}
+
+.box4img{
+    display: block;
+    height: 532px;
+}
+
+.image3{
+    width: 100%;
+}
+
+.buttonsforbox4{
+    cursor: pointer;
+}
+
+#imgtxt10{
+    display: flex;
+    position: absolute;
+    top: 315%;
+    right: 41.5%;
+    color: white;
+}
+
+#stayupdated10{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 95px;
+    margin-right: 2%;
+}
+
+
+#imgtxt20{
+    position: absolute;
+    top: 315%;
+    left: 46%;
+    color: white;
+}
+
+#stayupdated20{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 89px;
+}
+
+#imgtxt30{
+    position: absolute;
+    top: 315%;
+    left: 46%;
+    color: white;
+}
+
+#imgtxt40{
+    position: absolute;
+    top: 280%;
+    left: 7%;
+    color: white;
+}
+
+#bear40{
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 20%;
+}
+
+
+#stayupdated40{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 62px;
+}
+
+#imgtxt50{
+    display: flex;
+    position: absolute;
+    top: 315%;
+    right: 10%;
+    color: white;
+}
+
+#imgtxt50{
+    display: flex;
+    position: absolute;
+    top: 315%;
+    right: 10%;
+    color: white;
+}
+
+#imgtxt60{
+    display: flex;
+    position: absolute;
+    top: 315%;
+    right: 17%;
+    color: white;
+}
+
+#stayupdated60{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 104px;
+    margin-right: 2%;
+}
+
+
+#imgtxt70{
+    display: flex;
+    position: absolute;
+    top: 316%;
+    right: 45%;
+}
+
+#stayupdated70{
+    padding: 7px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+    width: 118px;
+    margin-right: 2%;
+}
+
+#imgtxt80{
+    display: flex;
+    position: absolute;
+    top: 316%;
+    right: 45%;
+}
+
+#stayupdated80{
+    padding: 7px 20px;
+    background-color: rgb(218, 41, 28);
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+    width: 118px;
+    margin-right: 2%;
 }

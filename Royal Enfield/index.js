@@ -24,7 +24,7 @@ window.addEventListener("scroll", () => {
 var imageno =1;
 displayimg(imageno);
 
-var autoSlide = setInterval(() => nextimg(1), 4000);
+// var autoSlide = setInterval(() => nextimg(1), 4000);
 
 
 function nextimg(n){
@@ -60,25 +60,79 @@ function displayimg(n){
 
 
 
-// let imageno = 1;
 
-// function CurrentSlide(n) {
-//     imageno = n;
-//     updateSlide();
-// }
 
-// function updateSlide() {
-//     const sliderContainer = document.querySelector('.slider-container');
-//     const totalImages = document.querySelectorAll('.image').length / 2; // Since we duplicated the images
-//     const offset = -(imageno - 1) * 100; // Calculate offset for each slide
 
-//     sliderContainer.style.transform = `translateX(${offset}%)`;
-//     sliderContainer.style.animation = 'none'; // Stop CSS animation
 
-//     // Restart animation after a short delay
-//     setTimeout(() => {
-//         sliderContainer.style.animation = 'scroll 20s linear infinite';
-//     }, 100); // Small delay to allow the reset to take effect
-// }
+var imageno2 =1;
+displayimg2(imageno2);
 
-// Optional: Add event listeners for manual navigation buttons
+
+function nextimg2(n){
+    displayimg2(imageno2 += n)
+}
+
+function CurrentSlide2(n) {
+    displayimg2(imageno2 = n)
+}
+
+function displayimg2(n){
+    var i;
+    var image2 = document.getElementsByClassName("image2");
+    var dots2 = document.getElementsByClassName("buttonsforbox3");
+
+    if(n > image2.length){
+        imageno2 = 1;
+    }
+    if(n < 1){
+        imageno2 = image2.length;
+    }
+    for(i=0; i<image2.length; i++){
+        image2[i].style.display = "none";
+    }
+    for(i=0; i<dots2.length; i++){
+        dots2[i].className =  dots2[i].className.replace(" active2", "");
+    }
+
+    image2[imageno2 - 1].style.display ="block";
+    dots2[imageno2 - 1].className += " active2";
+}
+
+
+
+
+
+
+var imageno3 =1;
+displayimg3(imageno3);
+
+
+function nextimg3(n){
+    displayimg3(imageno3 += n)
+}
+
+function CurrentSlide3(n) {
+    displayimg3(imageno3 = n)
+}
+
+function displayimg3(n){
+    var i;
+    var image3 = document.getElementsByClassName("image3");
+    var dots3 = document.getElementsByClassName("buttonsforbox4");
+
+    if(n > image3.length){
+        imageno3 = 1;
+    }
+    if(n < 1){
+        imageno3 = image3.length;
+    }
+    for(i=0; i<image3.length; i++){
+        image3[i].style.display = "none";
+    }
+    for(i=0; i<dots3.length; i++){
+        dots3[i].className =  dots3[i].className.replace(" active2", "");
+    }
+
+    image3[imageno3 - 1].style.display ="block";
+    dots3[imageno3 - 1].className += " active2";
+}
