@@ -318,7 +318,6 @@
 
 #navbar2{
     background-color: rgb(33, 33, 33);
-    /* display: flex; */
     display: grid;
     grid-template-columns: 16% 8% 76%;
     color: white;
@@ -679,3 +678,523 @@
     width: 118px;
     margin-right: 2%;
 }
+
+
+#navbar4{
+    background-color: rgb(33, 33, 33);
+    display: grid;
+    grid-template-columns: 16% 8% 60%;
+    color: white;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+#navbar4main{
+    display: grid;
+    grid-template-columns: 25% 2% 13% 2% 23% 2% 18% 2% 16%;
+    color: white;
+    align-items: center;
+    height: 60px;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+#box5{
+    overflow: hidden;
+    width: 100%;
+}
+
+#box5main{
+    display: flex;
+}
+
+.box5img{
+    display: block;
+    height: 532px;
+}
+
+.image5{
+    width: 100%;
+}
+
+.buttonsforbox5{
+    cursor: pointer;
+}
+
+.active3{
+   color:  rgb(191, 10, 0);
+}
+
+#navbar5{
+    background-color: rgb(33, 33, 33);
+    display: grid;
+    grid-template-columns: 16% 8% 60%;
+    color: white;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+#navbar5main{
+    display: grid;
+    grid-template-columns: 29% 3% 13%;
+    color: white;
+    align-items: center;
+    height: 60px;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+#box6{
+    overflow: hidden;
+    width: 100%;
+}
+
+#box6main{
+    display: flex;
+}
+
+.box6img{
+    display: block;
+    height: 532px;
+}
+
+
+.image6{
+    width: 100%;
+}
+
+#tint1{
+    display: block;
+    position: absolute;
+    top: 522%;
+    height: 534px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.buttonsforbox6{
+    cursor: pointer;
+}
+
+.active4{
+   color:  rgb(191, 10, 0);
+}
+
+
+
+#navbar6{
+    background-color: rgb(33, 33, 33);
+    display: grid;
+    grid-template-columns: 16% 8% 60%;
+    color: white;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+#navbar6main{
+    display: grid;
+    grid-template-columns: 8% 3% 15% 3% 24% 3% 15%;
+    color: white;
+    align-items: center;
+    height: 60px;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+#box7{
+    overflow: hidden;
+    width: 100%;
+}
+
+#box7main{
+    display: flex;
+}
+
+.box7img{
+    display: block;
+    height: 532px;
+}
+
+.image7{
+    width: 100%;
+}
+
+.buttonsforbox7{
+    cursor: pointer;
+}
+
+.active5{
+   color:  rgb(191, 10, 0);
+}
+
+#imgtxt101{
+    display: flex;
+    position: absolute;
+    top: 407%;
+    right: 18.5%;
+    color: white;
+}
+
+#stayupdated101{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 75px;
+    margin-right: 2%;
+}
+
+#imgtxt102{
+    position: absolute;
+    top: 362%;
+    left: 6%;
+    color: white;
+}
+
+#stayupdated102{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 81px;
+    margin-right: 2%;
+    margin-top: 15%;
+}
+
+#imgtxt103{
+    position: absolute;
+    top: 408%;
+    right: 45.3%;
+    color: white;
+}
+
+#stayupdated103{
+    padding: 7px 20px;
+  border: 1px solid white;
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+    width: 81px;
+    margin-right: 2%;
+}
+
+#imgtxt104{
+    position: absolute;
+    top: 407%;
+    left: 7%;
+    color: white;
+}
+
+#stayupdated104{
+    padding: 7px 20px;
+  border: 1px solid white;
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+    width: 81px;
+}
+
+#imgtxt105{
+    position: absolute;
+    top: 381%;
+    left: 6%;
+    color: white;
+}
+
+#stayupdated105{
+    padding: 7px 20px;
+  border: 1px solid white;
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+    width: 81px;
+}
+
+#imgtxt106{
+    position: absolute;
+    top: 473%;
+    left: 6%;
+    color: white;
+}
+
+#stayupdated106{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 62px;
+}
+
+#imgtxt107{
+    position: absolute;
+    top: 499%;
+    left: 7%;
+    color: white;
+}
+
+#stayupdated107{
+    padding: 7px 20px;
+  border: 1px solid white;
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+    width: 89px;
+}
+
+#imgtxt108{
+    position: absolute;
+    top: 557%;
+    left: 6%;
+    color: white;
+}
+
+#bear108{
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 15%;
+}
+
+
+#stayupdated108{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 91px;
+}
+
+#imgtxt109{
+    position: absolute;
+    top: 554%;
+    left: 6%;
+    color: white;
+}
+
+#bear109{
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 14%;
+}
+
+#stayupdated109{
+    padding: 7px 20px;
+    border: 1px solid white;
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+    width: 151px;
+}
+
+#imgtxt110{
+    position: absolute;
+    top: 554%;
+    left: 6%;
+    color: white;
+}
+
+#bear110{
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 8%;
+}
+
+#stayupdated110{
+    padding: 7px 20px;
+    border: 1px solid white;
+    color: white;
+    font-size: 90%;
+    font-weight: 500;
+    width: 128px;
+}
+
+#imgtxt111{
+    position: absolute;
+    top: 556%;
+    left: 6%;
+    color: white;
+}
+
+#bear111{
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 15%;
+}
+
+
+#stayupdated111{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: 500;
+    width: 101px;
+}
+
+#box8{
+    height: 157px;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color: #b4b2b2;
+}
+
+#box8main{
+    padding-left: 16%;
+    display: grid;
+    grid-template-columns: 110% 110% 100%;
+}
+
+#img1{
+    padding-left: 7%;
+}
+
+
+#img3{
+    padding-left: 4%;
+}
+
+#bottom{
+    height: 638px;
+    background-color: rgb(229, 227, 227);
+}
+
+#bottommain{
+    padding: 0 30px;
+}
+
+#bottomup{
+    height: 86px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right: 2.5%;
+    border-bottom: 1px solid rgb(186, 186, 186);
+    margin: 0 -15px;
+}
+
+#txt1{
+    font-size: 95%;
+    font-weight: 550;
+}
+
+.icons{
+    font-size: 170%;
+    margin-left: 1.5%;
+}
+
+#bottommiddle{
+    padding: 35px 15px 30px 15px;
+    margin: 0 -15px;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+#bottommiddle > ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottommiddle > ul > li {
+    padding: 0 15px;
+}
+
+#bottommiddle ul{
+    list-style: none;
+    padding: 0;
+}
+
+.bottomhead{
+    font-size: 120%;
+    font-weight: 650;
+}
+
+#bottommiddle > ul > li >ul{
+    font-size: 90%;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#bottommiddle > ul > li >ul > li> span{
+    cursor: pointer;
+}
+
+#bottommiddle > ul > li >ul > li:hover{
+    color: rgb(218, 41, 60);
+}
+
+#bottommiddle > ul > li >ul >li{
+    padding: 6px 0;
+}
+
+#bottomdown{
+    display: flex;
+    justify-content: space-between;
+    font-size: 65%;
+    font-weight: 550;
+    margin-top: 0.9%;
+}
+
+#bottomdown >div >p{
+    line-height: 2;
+}
+
+
+
+
+
+
+.wobble {
+    display: inline-block;
+    transition: transform 0.1s; 
+}
+
+
+.wobblemain:hover .wobble {
+    animation: wobble 1.5s forwards; 
+}
+
+@keyframes wobble {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-2px); }
+    20% { transform: translateX(2px); }  
+    30% { transform: translateX(-2px); } 
+    40%{ transform: translateX(2px); } 
+    50% { transform: translateX(-2px); } 
+    60% { transform: translateX(2px); }   
+    70%{ transform: translateX(-2px); }   
+    80%{ transform: translateX(2px); }     
+    90%{ transform: translateX(-2px); }   
+    100%{ transform: translateX(2px); }    
+}
+
+#opt01 > li{
+    cursor: pointer;
+}
+
+#hovred:hover,#opt01 > li:hover{
+    color: red;
+}
+
+#opt01 > li > span > i { 
+    transition: transform 0.5s ease; 
+    transform-origin: center;
+    font-size: 15px;
+}
+
+#opt01 > li:hover > span>i{
+    transform: rotate(180deg);
+}
+

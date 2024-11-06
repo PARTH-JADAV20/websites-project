@@ -24,7 +24,7 @@ window.addEventListener("scroll", () => {
 var imageno =1;
 displayimg(imageno);
 
-// var autoSlide = setInterval(() => nextimg(1), 4000);
+var autoSlide = setInterval(() => nextimg(1), 4000);
 
 
 function nextimg(n){
@@ -136,3 +136,117 @@ function displayimg3(n){
     image3[imageno3 - 1].style.display ="block";
     dots3[imageno3 - 1].className += " active2";
 }
+
+
+
+var imageno4 =1;
+displayimg4(imageno4);
+
+
+function nextimg4(n){
+    displayimg4(imageno4 += n)
+}
+
+function CurrentSlide4(n) {
+    displayimg4(imageno4 = n)
+}
+
+function displayimg4(n){
+    var i;
+    var image4 = document.getElementsByClassName("image4");
+    var dots4= document.getElementsByClassName("buttonsforbox5");
+
+    if(n > image4.length){
+        imageno4 = 1;
+    }
+    if(n < 1){
+        imageno4 = image4.length;
+    }
+    for(i=0; i<image4.length; i++){
+        image4[i].style.display = "none";
+    }
+    for(i=0; i<dots4.length; i++){
+        dots4[i].className =  dots4[i].className.replace(" active3", "");
+    }
+
+    image4[imageno4 - 1].style.display ="block";
+    dots4[imageno4 - 1].className += " active3";
+}
+
+
+
+
+var imageno5 =1;
+displayimg5(imageno5);
+
+
+function nextimg5(n){
+    displayimg5(imageno5 += n)
+}
+
+function CurrentSlide5(n) {
+    displayimg5(imageno5 = n)
+}
+
+function displayimg5(n){
+    var i;
+    var image5 = document.getElementsByClassName("image5");
+    var dots5= document.getElementsByClassName("buttonsforbox6");
+
+    if(n > image5.length){
+        imageno5 = 1;
+    }
+    if(n < 1){
+        imageno5 = image5.length;
+    }
+    for(i=0; i<image5.length; i++){
+        image5[i].style.display = "none";
+    }
+    for(i=0; i<dots5.length; i++){
+        dots5[i].className =  dots5[i].className.replace(" active4", "");
+    }
+
+    image5[imageno5 - 1].style.display ="block";
+    dots5[imageno5 - 1].className += " active4";
+}
+
+
+
+
+var imageno6 =1;
+displayimg6(imageno6);
+
+
+function nextimg6(n){
+    displayimg6(imageno6 += n)
+}
+
+function CurrentSlide6(n) {
+    displayimg6(imageno6 = n)
+}
+
+function displayimg6(n){
+    var i;
+    var image6 = document.getElementsByClassName("image6");
+    var dots6= document.getElementsByClassName("buttonsforbox7");
+
+    if(n > image6.length){
+        imageno6 = 1;
+    }
+    if(n < 1){
+        imageno6 = image6.length;
+    }
+    for(i=0; i<image6.length; i++){
+        image6[i].style.display = "none";
+    }
+    for(i=0; i<dots6.length; i++){
+        dots6[i].className =  dots6[i].className.replace(" active5", "");
+    }
+
+    image6[imageno6 - 1].style.display ="block";
+    dots6[imageno6 - 1].className += " active5";
+}
+
+
+
+
